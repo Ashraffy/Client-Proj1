@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Droid Sans';
+    font-size: 12pt;
+    background: #191514;
+    color: #D5D1CE;
+}
+/*BIG DIV CONTAINER*/
+#container{
+    text-align: center;
+    margin-top: 20px;
+}
+#container h2{
+    font-size: 50px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#select {  
+    height: 105px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #DC4145;
+    text-align: left;
+}
+#select select {
+    font-family: 'Lato';
+    background: white;
+    border: 2px solid black;
+    font-size: 15px;
+    height: 35px;
+    padding: 5px;
+    width: 305px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*DIV SELECT PARAGRAPH*/
+#select > p{
+    font-size: 30px;
+	color: black;
+}
+/*DIV THE OUTPUTS COME OUT IN*/
+#formThing{
+    font-size: 30px;
+}
+/*DIV FOR THE OUTPUT FORM*/
+#colorIn{
+    background: #DC4145;
+    width: 14%;
+    text-align: left;
+    padding: 5px;
+	padding-left: 10px;
+    margin-top: -10px;
+	color: black;
+	position:absolute;
+	z-index:1;
+}
+/*RESET AND SUBMIT BUTTON*/
+#resetB, #submitB{
+    text-align: center;
+	font-size: 20px;
+    width: 100px;
+	background: #EEB977;
+	border: 2px solid #5A352C;
+}
+/*INPUT FOR NAME AND QUESTION*/
+#nameInn, #askInn {
+    font-family: 'Lato';
+    background: white;
+    border: 2px solid black;
+    font-size: 15px;
+    height: 31px;
+    padding: 5px;
+    width: 305px;
+    margin-top: 10px;
+}
+/*DIV TO PRINT THE PICTURE*/
+#pictureIn{
+	width: 100%;
+	background: #DC4145;
+	margin-top: -10px;
+	padding-bottom: 10px;
+	float:left;
+}

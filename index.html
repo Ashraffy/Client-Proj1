@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Horror Stories</title>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+</html>
+<body onload="init();">
+    <div id="container">
+        <h2>Famous Horror Stories</h2>
+
+        <div id="select">
+            <p>Pick any option and see which horror story you get!</p>
+            <select id="s1" onChange="addAselect(this)">
+                <option selected disabled>Are you interested in some horror story?</option>
+                <option>Yes</option>
+                <option>Maybe...</option>
+            </select>
+        </div>
+        <div id="formThing"></div>
+    </div>
+</body>
